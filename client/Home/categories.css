@@ -1,0 +1,16 @@
+.categories:nth-child(2n + 1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.categories:nth-child(2n) {
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.categories img {
+  width: 25%;
+}

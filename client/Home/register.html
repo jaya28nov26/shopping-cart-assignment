@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="sign-in.css" />
+    <script src="products.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="../static/images/logo.png" alt="Cart Logo Image" />
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+      </nav>
+      <div class="cart-class">
+        <div class="cart-register">
+          <a href="sign-in.html"><span>SignIn</span></a>
+          <a href="register.html"><span>Register</span></a>
+        </div>
+        <div class="cart-items-home">
+          <img src="../static/images/cart.svg" alt="Cart Icon" />
+          <span> 0 items</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Login</h2>
+          <p>Get access to your Orders</p>
+        </section>
+        <section>
+          <form>
+            <label for="UserName"
+              ><input
+                type="text"
+                name=""
+                id="firstName"
+                placeholder="Name"
+                required
+            /></label>
+            <br />
+            <label for="LastName"
+              ><input type="text" name="" id="lastName" placeholder="Last Name"
+            /></label>
+            <br />
+            <label for="UserEmail"
+              ><input
+                type="email"
+                name=""
+                id="email-id"
+                placeholder="Email"
+                required
+            /></label>
+            <br />
+            <label for="UserPassword"
+              ><input
+                type="password"
+                name=""
+                id="password"
+                placeholder="Password"
+                required
+            /></label>
+            <br />
+            <label for="UserPassword"
+              ><input
+                type="password"
+                name=""
+                id="password-2"
+                placeholder="Confirm Password"
+                required
+            /></label>
+            <br />
+            <button type="submit" onclick="userCreation()">Register</button>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>Copyright &#169; 2011-2018 Sabka Bazaar Grocery Supplies Pvt Ltd</p>
+    </footer>
+  </body>
+</html>

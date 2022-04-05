@@ -1,0 +1,8 @@
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  box-shadow: none;
+}

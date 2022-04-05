@@ -1,0 +1,35 @@
+header {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 5px 10px gainsboro;
+  position: sticky;
+}
+.home section {
+  box-shadow: 0px 5px 10px gainsboro;
+  margin: 0.8rem 0;
+}
+nav {
+  margin-right: 25rem;
+}
+nav a {
+  padding: 1em;
+}
+.cart-class {
+  cursor: pointer;
+}
+.cart-items-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: gainsboro;
+  padding: 1em;
+}
+.cart-register {
+  margin: 1rem 0 1rem 1rem;
+}
+footer p {
+  padding: 0.5rem 10rem;
+  background-color: rgb(209, 213, 218);
+  color: black;
+}

@@ -1,0 +1,63 @@
+.PLP-listing-class h4 {
+  font-weight: 600;
+}
+.PLP-listing-class p {
+  background-color: rgb(236, 227, 227);
+  padding: 0.5rem;
+}
+.category-products {
+  background: lightgrey;
+}
+.category-products p {
+  padding: 0.5rem 0rem;
+  border-bottom: 1px solid silver;
+}
+.PLP-listing-class img {
+  width: 75%;
+  height: 35%;
+}
+.div-height {
+  width: 26%;
+}
+.PLP-listing-class .span2 {
+  float: right;
+  background-color: rgb(184, 25, 59);
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.displayclass {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .div-height {
+    width: 65%;
+  }
+}
+/* @media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone 
+} */
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .div-height {
+    width: 36%;
+  }
+}
+/* @media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops 
+} */
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .div-height {
+    width: 22%;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
